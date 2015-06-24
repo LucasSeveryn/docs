@@ -84,7 +84,7 @@
           } else {
             heatmap = [];
 
-            for(var i = 1, colCount = this.countCols(); i < colCount ; i++) {
+            for(var i = 0, colCount = this.countCols(); i < colCount ; i++) {
               heatmap[i] = generateHeatmapData.call(this, i);
             }
           }
